@@ -1,7 +1,7 @@
 
 const TestLinks = () => {
   return (
-    <div>TestLinks SEEEEEEEEES</div>
+    <div className="text-orange-700">TestLinks SEEEEEEEEES</div>
   )
 }
 
