@@ -1,10 +1,27 @@
 import Hero from "@components/Hero"
-import Footer from "@components/Footer"
+//  import GallerySlider from "@components/GallerySlider";
+ import AboutUsSection from '@components/AboutUsSection';
+ import PropertiesListingSection from '@components/PropertiesListingSection';
+ import FaqSection from '@components/FaqSection';
+ import FeaturedProperties from '@components/FeaturedProperties';
+ import TestimonialSection from '@components/TestimonialSection';
+import ContactSection from "@components/ContactSection"
+import StaffSection from '@components/StaffSection';
+import BlogSection from '@components/BlogSection';
+
 const page = () => {
   return (
-    <div>
-        <Hero />
-    </div>
+    <>
+       <Hero />
+       <AboutUsSection />
+       <PropertiesListingSection />
+       <BlogSection />
+       <FeaturedProperties />
+       <StaffSection />
+       <FaqSection />
+       <TestimonialSection />
+       <ContactSection /> 
+        </>
   )
 }
 

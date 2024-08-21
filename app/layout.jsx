@@ -27,6 +27,8 @@
 
 import '../app/globals.css';
 import Header from '@/components/Header';
+import Footer from '@components/Footer';
+
 
 export const metadata = {
   title: 'Orange Sun Homes',
@@ -38,7 +40,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
-        <main>{children}</main>
+        <main className="mt-10">{children}</main>
+        <Footer />
       </body>
     </html>
   );
