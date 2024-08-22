@@ -51,7 +51,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li><strong>Address:</strong> 123 Dreamland Avenue, Sunset City, Country</li>
             <li><strong>Email:</strong> info@orangesunhomes.com</li>
-            <li><strong>Phone:</strong> +123-456-7890</li>
+            <li><strong>Phone:</strong> +1238102555210</li>
           </ul>
 
           {/* Newsletter Subscription */}

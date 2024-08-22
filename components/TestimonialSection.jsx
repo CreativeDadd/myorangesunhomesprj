@@ -38,7 +38,7 @@ export default function TestimonialSection() {
               className="w-24 h-24 object-cover rounded-full mx-auto mb-4"
             />
             <h3 className="text-xl font-semibold text-gray-800">{testimonial.name}</h3>
-            <p className="text-gray-600 mt-3">"{testimonial.comment}"</p>
+            <p className= "text-gray-600 mt-3">"{testimonial.comment}"</p>
           </motion.div>
         ))}
       </div>
